@@ -33,6 +33,5 @@ gives a median accuracy with less data and training time.
  * classes=4
 
 #### Inference
-
-![Screenshot]
-(test_0.png)
+* to Run Inference: python3 inference.py --image images/0.jpg --config yolov3-helmet.cfg --weights ../backup/yolov3-helmet_20000.weights --names data.names
+![Screenshot](test_0.png)
